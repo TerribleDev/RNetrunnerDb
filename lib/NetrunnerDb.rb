@@ -1,5 +1,5 @@
-require "NetrunnerDb/version"
-
+require 'NetrunnerDb/version'
+require 'NetrunnerDb/http_handler'
 module NetrunnerDb
-  # Your code goes here...
+
 end

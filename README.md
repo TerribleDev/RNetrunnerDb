@@ -1,8 +1,6 @@
 # NetrunnerDb
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/NetrunnerDb`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Simple wrapper over netrunnerDb API
 
 ## Installation
 
@@ -22,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+res = NetrunnerDb::HttpHandler.get_cards
+res = NetrunnerDb::HttpHandler.get_card(01001)
+res = NetrunnerDb::HttpHandler.get_sets
+res = NetrunnerDb::HttpHandler.get_set("cc")
+```
 
 ## Development
 
@@ -32,8 +35,14 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/NetrunnerDb/fork )
+1. Fork it ( https://github.com/tparnell8/RNetrunnerDb/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## todo
+
+* test things
+* figure out ruby better
+* who knows
