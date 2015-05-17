@@ -44,5 +44,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## todo
 
 * test things
+* publish gem
 * figure out ruby better
 * who knows
